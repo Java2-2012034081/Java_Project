@@ -24,17 +24,16 @@ public class idontknow {
 	    	 System.out.println(" ");
 	   
 	    }
-	    
-	    for(int i=8; i>=1; i--)
-	    	for(int j=1;j<=9;j++){
-	    		System.out.print(i*1000+j);
-	    		System.out.print(" ");
+	    for(int i=8; i>=1; i--){
+	    	for(int j=1;j<=9;j++)
+	    		System.out.print(i*1000+j+" ");
+	    		System.out.println(" ");
 	    		
 	    	}
 	        System.out.println(" ");
        	    
 	    
-	}
+	    }
 }
 	    
 	    
