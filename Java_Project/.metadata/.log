@@ -193,3 +193,188 @@ Caused by: java.net.SocketTimeoutException
 	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
 	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
 	... 16 more
+!SESSION 2016-04-07 20:33:42.354 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-07 20:34:03.510
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\basic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-04-07 20:34:19.363
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException
+	at java.net.SocksSocketImpl.remainingMillis(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+!SESSION 2016-04-07 20:35:17.128 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-07 20:35:35.491
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\basic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-04-07 20:35:51.233
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException
+	at java.net.SocksSocketImpl.remainingMillis(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-04-07 20:36:40.266
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:168)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:268)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:142)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:97)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2225)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:134)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:60)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:253)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:235)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:205)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\2012034081\git\Java_Project overlaps the workspace location: D:\2012034081\git\Java_Project
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-07 20:36:40.266
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2016-04-07 20:36:40.266
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2016-04-07 20:36:40.267
+!MESSAGE D:\2012034081\git\Java_Project overlaps the workspace location: D:\2012034081\git\Java_Project
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-04-07 20:36:44.073
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:168)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:268)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:179)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:142)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:97)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2225)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:134)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:60)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:253)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:235)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:205)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\2012034081\git\Java_Project overlaps the workspace location: D:\2012034081\git\Java_Project
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2016-04-07 20:36:44.073
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2016-04-07 20:36:44.073
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2016-04-07 20:36:44.073
+!MESSAGE D:\2012034081\git\Java_Project overlaps the workspace location: D:\2012034081\git\Java_Project
+!SESSION 2016-04-07 20:39:21.276 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-04-07 20:39:43.617
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\basic'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-04-07 20:39:59.358
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException
+	at java.net.SocksSocketImpl.remainingMillis(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
